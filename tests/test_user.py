@@ -49,5 +49,6 @@ class TestUser(unittest.TestCase):
             self.assertEqual(type(getattr(o, k, None)), v)
 
 
+
 if __name__ == "__main__":
     unittest.main()
