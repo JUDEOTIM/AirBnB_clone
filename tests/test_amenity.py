@@ -47,7 +47,5 @@ class TestAmenity(unittest.TestCase):
         for k, v in attributes.items():
             self.assertTrue(hasattr(o, k))
             self.assertEqual(type(getattr(o, k, None)), v)
-
-
-if __name__ == "__main__":
- unittest.main()
+        if __name__ == "__main__":
+          unittest.main()
